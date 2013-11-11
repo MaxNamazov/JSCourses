@@ -1,0 +1,120 @@
+body{
+
+  background: #F8F8F8;
+  color: #636363;
+}
+header{
+  padding:40px;
+  border-bottom: 2px solid #ACACAC;
+  nav{
+    width:600px;
+    margin: 0 auto;
+    ul{
+      list-style: none;
+      .clearfix;
+      li{
+        float:left;
+        margin:0 20px;
+        a{
+          font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+          font-size: 15pt;
+          color: #636363;
+          text-decoration: none;
+          text-transform: uppercase;
+          &:hover{
+            color:red;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+article{
+  margin: 10px 50px 0 50px;
+  a{
+    color: #4876af;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  section{
+    .clearfix;
+    h3{
+      margin: 40px 0 20px 0;
+      font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+      font-size: 20pt;
+      color: #555555;
+      &:hover{
+        color:red;
+      }
+    }
+    p{
+      font-size: 14pt;
+      padding-bottom: 20px;
+      img{
+        float:left;
+        margin: 0 20px 20px 0;
+      }
+      &:first-letter{
+        font-size: 20pt;
+      }
+
+    }
+
+  }
+
+}
+.form-wrapper{
+  background-color: #7F7F7F;
+  color: white;
+  padding: 20px;
+  h3{
+    margin: 0  0 20px 20px;
+  }
+}
+footer{
+  background: #444444;
+  padding: 40px 0;
+  ul{
+    width: 400px;
+    margin: 0 auto;
+    list-style: none;
+    .clearfix;
+    li{
+      float:left;
+      margin:0 20px;
+      a{
+        font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+        font-size: 10pt;
+        color: #636363;
+        text-decoration: none;
+        &:hover{
+          color:red;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .copyright{
+    float: right;
+    padding-right: 20px;
+
+  }
+
+}
+
+
+
+// mixins
+.clearfix{
+ &:after{
+     visibility: hidden;
+     display: block;
+     content: "";
+     clear: both;
+     height: 0;
+     width: 0;
+ }
+}

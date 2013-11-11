@@ -1,0 +1,127 @@
+body {
+  background: #F8F8F8;
+  color: #636363;
+}
+header {
+  padding: 40px;
+  border-bottom: 2px solid #ACACAC;
+}
+header nav {
+  width: 600px;
+  margin: 0 auto;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  width: 0;
+}
+header nav ul li {
+  float: left;
+  margin: 0 20px;
+}
+header nav ul li a {
+  font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  font-size: 15pt;
+  color: #636363;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header nav ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+article {
+  margin: 10px 50px 0 50px;
+}
+article a {
+  color: #4876af;
+  text-decoration: none;
+}
+article a:hover {
+  text-decoration: underline;
+}
+article section:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  width: 0;
+}
+article section h3 {
+  margin: 40px 0 20px 0;
+  font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  font-size: 20pt;
+  color: #555555;
+}
+article section h3:hover {
+  color: red;
+}
+article section p {
+  font-size: 14pt;
+  padding-bottom: 20px;
+}
+article section p img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+article section p:first-letter {
+  font-size: 20pt;
+}
+.form-wrapper {
+  background-color: #7F7F7F;
+  color: white;
+  padding: 20px;
+}
+.form-wrapper h3 {
+  margin: 0  0 20px 20px;
+}
+footer {
+  background: #444444;
+  padding: 40px 0;
+}
+footer ul {
+  width: 400px;
+  margin: 0 auto;
+  list-style: none;
+}
+footer ul:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  width: 0;
+}
+footer ul li {
+  float: left;
+  margin: 0 20px;
+}
+footer ul li a {
+  font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  font-size: 10pt;
+  color: #636363;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+footer .copyright {
+  float: right;
+  padding-right: 20px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  width: 0;
+}
