@@ -41,13 +41,7 @@ function getFriends(userId){
                 result = [];
                 elem.friends.forEach(function(friendId){
                     result.push( people.filter(function(peopleItem){
-                                if(peopleItem.id == friendId){
-                                    console.log(friendId);
-                                    return true;
-
-                                }else{
-                                    return false;
-                                }
+                                return peopleItem.id == friendId;
                             })[0]);
                 })
             }else{
